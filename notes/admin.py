@@ -1,3 +1,4 @@
 from django.contrib import admin
+from .models import Note  # Импортируй модель Note
 
-# Register your models here.
+admin.site.register(Note)  # Зарегистрируй её
